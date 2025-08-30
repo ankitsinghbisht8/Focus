@@ -1,5 +1,5 @@
 console.log("hi");
-import { listenBtn } from "./Views/mobileBtnView";
+import { listenBtn } from "./Views/mobileBtnView.js";
 
 const mobileBtn = function (handler) {
   console.log(

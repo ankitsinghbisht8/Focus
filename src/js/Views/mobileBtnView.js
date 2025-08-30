@@ -4,6 +4,10 @@ const openIcon = document.getElementById("open-icon");
 const closeIcon = document.getElementById("close-icon");
 
 export function listenBtn() {
+  // console.log(mobileMenu);
+  // console.log(mobileMenuBtn);
+  // console.log(openIcon);
+  // console.log(closeIcon);
   mobileMenuBtn.addEventListener("click", function () {
     const isOpen = !mobileMenu.classList.contains("max-h-0");
     console.log("Menu is open:", isOpen);
