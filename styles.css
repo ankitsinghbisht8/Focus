@@ -1,11 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "tailwindcss";
 
-h1 {
-    font-family: "Silkscreen", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+@theme {
+  --font-silkscreen: "Silkscreen", cursive;
 }
